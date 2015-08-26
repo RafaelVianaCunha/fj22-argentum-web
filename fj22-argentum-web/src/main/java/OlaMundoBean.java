@@ -3,7 +3,7 @@ import javax.faces.bean.ManagedBean;
 @ManagedBean
 public class OlaMundoBean {
 
-	private String mensagem = "Quem é você?";
+	private String mensagem = "Quem Ã© vocÃª?";
 	private String nome;
 
 	public String getMensagem() {
@@ -19,6 +19,6 @@ public class OlaMundoBean {
 	}
 
 	public void nomeFoiDigitado() {
-		System.out.println("\nChamou o botão");
+		System.out.println("\nChamou o botÃ£o");
 	}
 }
